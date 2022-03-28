@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오늘의 영양제</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="/img/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <h1>오늘의 영양제</h1>
+    </header>
+    <div id="wrap">
+        <section id="banner">
+            <div class="banner-area">
+                <div class="banner-txt">
+                    <ul class="pill-list"></ul>
+                </div>
+                <p>드셨나요?</p>
+                <span class="current-time"></span>
+            </div>
+        </section>
+        <section id="contents">
+            <div class="input-area flex-position">
+                <div>
+                    <form>
+                        <input type="text" id="text-input" placeholder="약의 종류를 써주세요!">
+                        <div class="input__time-selector">
+                            <button class="btn" type="submit">공복</button>
+                            <button class="btn" type="submit">아침 식사 후</button>
+                            <button class="btn" type="submit">점심 식사 후</button>
+                            <button class="btn" type="submit">저녁 식사 후</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="contents-area flex-position">
+                <ul class="lists"></ul>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>영양제을 빠지지 않고 챙겨먹기 위해 만들었습니다.</p>
+        <p>@2022</p>
+        <p>hiitzsb@naver.com</p>
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
